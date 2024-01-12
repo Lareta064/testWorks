@@ -1,0 +1,24 @@
+.btn {
+    display: inline-block;
+    border-radius: 50px;
+
+    height: 64px;
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 64px;
+
+    padding: 0 40px;
+
+    &--light {
+        background-color: $light-color;
+    }
+
+    &--accent {
+        background-color: $accent-color;
+    }
+
+    @media(max-width: 1139px) {
+        padding: 0 26px;
+    }
+}
